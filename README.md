@@ -12,10 +12,7 @@
 
 ```javascript
 const jmlero = {
-    location: "🌍 Somewhere building cool stuff",
-    interests: ["AI/ML", "Cloud Architecture", "DevOps", "Open Source"],
-    currentlyLearning: "Advanced system design & distributed systems",
-    funFact: "I debug with console.log and I'm not ashamed"
+    interests: ["Cloud Architecture", "DevOps", "Open Source"]
 };
 ```
 
@@ -29,23 +26,13 @@ const jmlero = {
 
 </div>
 
-### 🛠️ Tech Stack
 
-```text
-Languages   : JavaScript/TypeScript, Python, Go, Rust
-Frontend    : React, Next.js, Tailwind CSS
-Backend     : Node.js, Express, FastAPI
-Cloud       : AWS, GCP, Docker, Kubernetes
-AI/ML       : TensorFlow, PyTorch, LangChain
-Tools       : Git, VS Code, Claude Code, Linux
-```
 
 ### 📫 Connect
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-@jmlero-181717?style=for-the-badge&logo=github)](https://github.com/jmlero)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-blue?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
 
 </div>
 
@@ -55,6 +42,5 @@ Tools       : Git, VS Code, Claude Code, Linux
 
 ![Profile Views](https://komarev.com/ghpvc/?username=jmlero&color=3B82F6&style=flat-square)
 
-*"Code is poetry written in logic"*
 
 </div>
