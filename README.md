@@ -1,6 +1,6 @@
 <div align="center">
 
-# Jose Manuel Lero
+# Jose Molero
 ### `@jmlero`
 
 Building practical CLI tools, cloud-native services, and AI projects.
