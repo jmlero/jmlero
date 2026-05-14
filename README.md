@@ -45,12 +45,9 @@ Building practical CLI tools, cloud-native services, and AI projects.
 
 ## GitHub Stats
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jmlero&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jmlero&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)
-
-</div>
+<p align="center">
+  <img src="metrics.svg" alt="GitHub Metrics" />
+</p>
 
 <div align="center">
   <!-- START:REFRESH_DATE -->Data refreshed from public GitHub repositories on 2026-05-14.<!-- END:REFRESH_DATE -->
