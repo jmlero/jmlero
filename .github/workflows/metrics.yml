@@ -26,3 +26,12 @@ jobs:
           plugin_languages_threshold: 1%
           plugin_languages_ignored: >-
             html, css, scss, dockerfile, makefile
+          experimental_features: --optimize-svg-css-injection
+          extras_css: |
+            svg { background-color: #0D1117 !important; }
+            .items-wrapper { background-color: #0D1117 !important; color: #c9d1d9 !important; padding: 14px !important; border-radius: 6px !important; }
+            h1, h2, h3 { color: #58a6ff !important; }
+            text, span, div { color: #c9d1d9 !important; }
+            .field { color: #c9d1d9 !important; }
+            .field svg { fill: #8b949e !important; }
+            .calendar .day { outline-color: rgba(201, 209, 217, 0.12) !important; }

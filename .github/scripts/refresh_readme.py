@@ -37,17 +37,13 @@ def fetch_repos() -> list[dict]:
 
 def build_table(repos: list[dict]) -> str:
     rows = [
-        "| Repository | Description | Language | Last Update |",
-        "| --- | --- | --- | --- |",
+        "| Repository | Description |",
+        "| --- | --- |",
     ]
     for r in repos:
         name = r["name"]
         desc = (r.get("description") or "No description set").replace("|", "\\|")
-        lang = r.get("language") or "-"
-        date = (r.get("pushed_at") or "")[:10]
-        rows.append(
-            f"| [`{name}`](https://github.com/{USER}/{name}) | {desc} | {lang} | {date} |"
-        )
+        rows.append(f"| [`{name}`](https://github.com/{USER}/{name}) | {desc} |")
     return "\n".join(rows)
 
 
