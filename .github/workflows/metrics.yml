@@ -19,7 +19,6 @@ jobs:
           user: jmlero
           filename: metrics.svg
           config_timezone: Europe/Madrid
-          config_theme: github_dark
           base: header
           plugin_languages: yes
           plugin_languages_limit: 8
