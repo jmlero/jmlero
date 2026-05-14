@@ -3,22 +3,29 @@
 # Jose M. Molero
 ### `@jmlero`
 
-Building practical CLI tools, cloud-native services, and AI projects.
+### Cloud & AI Platform Engineer
+
+Building the infrastructure where cloud workloads and AI agents run.
 
 <p>
   <a href="https://jmlero.github.io"><img src="https://img.shields.io/badge/Site-jmlero.github.io-0EA5E9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal Site" /></a>
   <a href="https://github.com/jmlero?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-13-0B1220?style=for-the-badge&logo=github" alt="Public Repos" /></a>
   <a href="https://github.com/jmlero?tab=followers"><img src="https://img.shields.io/github/followers/jmlero?style=for-the-badge&label=Followers&color=0EA5E9" alt="Followers" /></a>
-  <img src="https://komarev.com/ghpvc/?username=jmlero&style=for-the-badge&color=0891B2" alt="Profile Views" />
 </p>
 
 </div>
 
+## Currently Building
+
+**[pleng](https://github.com/jmlero/pleng)** — *Your AI Platform Engineer.* Self-hosted cloud built for AI agents: deploy, monitor, and operate your infrastructure through natural language. One VPS. One command.
+
+**[claude-toolkit](https://github.com/jmlero/claude-toolkit)** — Personal Claude Code marketplace + a curated list of third-party skills for Claude Code.
+
 ## Focus
 
-- Building tools that remove friction from daily developer workflows.
-- Shipping cloud-native projects with observability and automation first.
-- Exploring practical AI interfaces for terminal and web products.
+- Designing and operating cloud infrastructure for AI agent workloads.
+- Building developer platforms that bring AI capabilities into terminal and web products.
+- Open-source tooling around agent orchestration, Claude Code, and observability.
 
 ## Public Repository Index
 
