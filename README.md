@@ -27,7 +27,7 @@ Building the infrastructure where cloud workloads and AI agents run.
 - Building developer platforms that bring AI capabilities into terminal and web products.
 - Open-source tooling around agent orchestration, Claude Code, and observability.
 
-## Public Repository Index
+## Recent Activity
 
 <!-- START:REPO_TABLE -->
 | Repository | Description | Language | Last Update |
@@ -38,16 +38,12 @@ Building the infrastructure where cloud workloads and AI agents run.
 | [`ptncli`](https://github.com/jmlero/ptncli) | ptncli | - | 2026-02-22 |
 | [`kipf`](https://github.com/jmlero/kipf) | kipf | Go | 2026-02-19 |
 | [`qliz`](https://github.com/jmlero/qliz) | Application to play Quiz games in the terminal | Python | 2025-10-07 |
-| [`sandbox-go-restapi`](https://github.com/jmlero/sandbox-go-restapi) | No description set | Go | 2024-04-18 |
-| [`o11y-otel-demo`](https://github.com/jmlero/o11y-otel-demo) | Observability with opentelemetry  | Python | 2023-10-01 |
-| [`operator-kafka`](https://github.com/jmlero/operator-kafka) | No description set | Go | 2022-11-23 |
-| [`beegfs-web-overview`](https://github.com/jmlero/beegfs-web-overview) | beegfs web overview | Python | 2017-07-26 |
 <!-- END:REPO_TABLE -->
 
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,go,ts,bash,docker,kubernetes,githubactions,linux,aws&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=py,go,ts,terraform,docker,kubernetes,githubactions,prometheus,linux,aws&theme=dark" alt="Tech Stack" />
 </p>
 
 ## GitHub Stats

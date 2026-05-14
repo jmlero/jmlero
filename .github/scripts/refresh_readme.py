@@ -17,8 +17,9 @@ import subprocess
 from pathlib import Path
 
 USER = "jmlero"
-TABLE_LIMIT = 10
+TABLE_LIMIT = 6
 TABLE_EXCLUDE = {"jmlero", "jmlero.github.io"}
+TABLE_MAX_AGE_DAYS = 730  # roughly 24 months
 README = Path(__file__).resolve().parents[2] / "README.md"
 
 
@@ -64,8 +65,12 @@ def main() -> None:
     repos = fetch_repos()
     count = len(repos)
     today = datetime.date.today().isoformat()
-    # API already sorts by pushed desc — drop excluded repos, then slice.
-    table_repos = [r for r in repos if r["name"] not in TABLE_EXCLUDE]
+    cutoff = (datetime.date.today() - datetime.timedelta(days=TABLE_MAX_AGE_DAYS)).isoformat()
+    # API already sorts by pushed desc — exclude listed repos and stale ones, then slice.
+    table_repos = [
+        r for r in repos
+        if r["name"] not in TABLE_EXCLUDE and (r.get("pushed_at") or "")[:10] >= cutoff
+    ]
     table = build_table(table_repos[:TABLE_LIMIT])
 
     content = README.read_text()
