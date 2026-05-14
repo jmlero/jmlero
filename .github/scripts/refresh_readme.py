@@ -18,6 +18,7 @@ from pathlib import Path
 
 USER = "jmlero"
 TABLE_LIMIT = 10
+TABLE_EXCLUDE = {"jmlero", "jmlero.github.io"}
 README = Path(__file__).resolve().parents[2] / "README.md"
 
 
@@ -63,8 +64,9 @@ def main() -> None:
     repos = fetch_repos()
     count = len(repos)
     today = datetime.date.today().isoformat()
-    # API already sorts by pushed desc — slice the most recent for the table.
-    table = build_table(repos[:TABLE_LIMIT])
+    # API already sorts by pushed desc — drop excluded repos, then slice.
+    table_repos = [r for r in repos if r["name"] not in TABLE_EXCLUDE]
+    table = build_table(table_repos[:TABLE_LIMIT])
 
     content = README.read_text()
     content = re.sub(r"(Public%20Repos-)\d+(-)", rf"\g<1>{count}\g<2>", content)
