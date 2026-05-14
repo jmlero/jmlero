@@ -20,20 +20,6 @@ Building practical CLI tools, cloud-native services, and AI projects.
 - Shipping cloud-native projects with observability and automation first.
 - Exploring practical AI interfaces for terminal and web products.
 
-## Featured Public Projects
-
-<p align="center">
-  <a href="https://github.com/jmlero/app-meerkat-cli"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=app-meerkat-cli&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="app-meerkat-cli" /></a>
-  <a href="https://github.com/jmlero/ptncli"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=ptncli&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="ptncli" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/jmlero/kipf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=kipf&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="kipf" /></a>
-  <a href="https://github.com/jmlero/qliz"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=qliz&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="qliz" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/jmlero/o11y-otel-demo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=o11y-otel-demo&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="o11y-otel-demo" /></a>
-</p>
-
 ## Public Repository Index
 
 <!-- START:REPO_TABLE -->
