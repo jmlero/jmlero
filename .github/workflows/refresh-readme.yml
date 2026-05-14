@@ -1,0 +1,32 @@
+name: Refresh profile README
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate dynamic README sections
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/refresh_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          if [[ -z "$(git status --porcelain README.md)" ]]; then
+            echo "README.md is already up to date."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh README from GitHub API ($(date -u +%Y-%m-%d))"
+          git push

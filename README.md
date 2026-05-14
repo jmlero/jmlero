@@ -1,17 +1,16 @@
 <div align="center">
 
-# Jose Molero
+# Jose M. Molero
 ### `@jmlero`
 
 Building practical CLI tools, cloud-native services, and AI projects.
 
 <p>
-  <a href="https://github.com/jmlero?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-12-0B1220?style=for-the-badge&logo=github" alt="Public Repos" /></a>
+  <a href="https://jmlero.github.io"><img src="https://img.shields.io/badge/Site-jmlero.github.io-0EA5E9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal Site" /></a>
+  <a href="https://github.com/jmlero?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-13-0B1220?style=for-the-badge&logo=github" alt="Public Repos" /></a>
   <a href="https://github.com/jmlero?tab=followers"><img src="https://img.shields.io/github/followers/jmlero?style=for-the-badge&label=Followers&color=0EA5E9" alt="Followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=jmlero&style=for-the-badge&color=0891B2" alt="Profile Views" />
 </p>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1200&color=0EA5E9&center=true&vCenter=true&width=720&lines=CLI+tools+for+real+workflows;Cloud-native+engineering;Automation%2C+DevOps%2C+and+AI+experiments" alt="Typing SVG" />
 
 </div>
 
@@ -28,30 +27,27 @@ Building practical CLI tools, cloud-native services, and AI projects.
   <a href="https://github.com/jmlero/ptncli"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=ptncli&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="ptncli" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/jmlero/cc-slim-cli"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=cc-slim-cli&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="cc-slim-cli" /></a>
   <a href="https://github.com/jmlero/kipf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=kipf&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="kipf" /></a>
+  <a href="https://github.com/jmlero/qliz"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=qliz&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="qliz" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/jmlero/qliz"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=qliz&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="qliz" /></a>
   <a href="https://github.com/jmlero/o11y-otel-demo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jmlero&repo=o11y-otel-demo&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="o11y-otel-demo" /></a>
 </p>
 
 ## Public Repository Index
 
+<!-- START:REPO_TABLE -->
 | Repository | Description | Language | Last Update |
 | --- | --- | --- | --- |
+| [`claude-toolkit`](https://github.com/jmlero/claude-toolkit) | My personal Claude Code plugin marketplace + curated list of third-party skills | JavaScript | 2026-04-17 |
+| [`jmlero.github.io`](https://github.com/jmlero/jmlero.github.io) | jmlero.github.io | HTML | 2026-04-12 |
+| [`pleng`](https://github.com/jmlero/pleng) | Your AI Platform Engineer. Self-hosted cloud built for AI agents — deploy, monitor, and operate your infrastructure through natural language. One VPS. One command. | - | 2026-03-28 |
+| [`jmlero`](https://github.com/jmlero/jmlero) | No description set | - | 2026-02-22 |
 | [`app-meerkat-cli`](https://github.com/jmlero/app-meerkat-cli) | app-meerkat-cli | TypeScript | 2026-02-22 |
 | [`ptncli`](https://github.com/jmlero/ptncli) | ptncli | - | 2026-02-22 |
-| [`cc-slim-cli`](https://github.com/jmlero/cc-slim-cli) | cc-slim-cli | Shell | 2026-02-21 |
 | [`kipf`](https://github.com/jmlero/kipf) | kipf | Go | 2026-02-19 |
-| [`jmlero.github.io`](https://github.com/jmlero/jmlero.github.io) | jmlero.github.io | HTML | 2026-02-17 |
-| [`jmlero`](https://github.com/jmlero/jmlero) | Profile repository | - | 2026-02-01 |
 | [`qliz`](https://github.com/jmlero/qliz) | Application to play Quiz games in the terminal | Python | 2025-10-07 |
-| [`sandbox-go-restapi`](https://github.com/jmlero/sandbox-go-restapi) | No description set | Go | 2024-04-18 |
-| [`o11y-otel-demo`](https://github.com/jmlero/o11y-otel-demo) | Observability with opentelemetry | Python | 2023-10-01 |
-| [`operator-kafka`](https://github.com/jmlero/operator-kafka) | No description set | Go | 2022-11-23 |
-| [`beegfs-web-overview`](https://github.com/jmlero/beegfs-web-overview) | beegfs web overview | Python | 2017-07-26 |
-| [`python-compressandmove`](https://github.com/jmlero/python-compressandmove) | Python script. Compress a folder and move | Python | 2016-01-25 |
+<!-- END:REPO_TABLE -->
 
 ## Stack
 
@@ -69,5 +65,5 @@ Building practical CLI tools, cloud-native services, and AI projects.
 </div>
 
 <div align="center">
-  Data refreshed from public GitHub repositories on 2026-02-22.
+  <!-- START:REFRESH_DATE -->Data refreshed from public GitHub repositories on 2026-05-14.<!-- END:REFRESH_DATE -->
 </div>
