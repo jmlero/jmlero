@@ -25,14 +25,16 @@ Building practical CLI tools, cloud-native services, and AI projects.
 <!-- START:REPO_TABLE -->
 | Repository | Description | Language | Last Update |
 | --- | --- | --- | --- |
+| [`jmlero`](https://github.com/jmlero/jmlero) | No description set | - | 2026-05-14 |
 | [`claude-toolkit`](https://github.com/jmlero/claude-toolkit) | My personal Claude Code plugin marketplace + curated list of third-party skills | JavaScript | 2026-04-17 |
 | [`jmlero.github.io`](https://github.com/jmlero/jmlero.github.io) | jmlero.github.io | HTML | 2026-04-12 |
 | [`pleng`](https://github.com/jmlero/pleng) | Your AI Platform Engineer. Self-hosted cloud built for AI agents — deploy, monitor, and operate your infrastructure through natural language. One VPS. One command. | - | 2026-03-28 |
-| [`jmlero`](https://github.com/jmlero/jmlero) | No description set | - | 2026-02-22 |
 | [`app-meerkat-cli`](https://github.com/jmlero/app-meerkat-cli) | app-meerkat-cli | TypeScript | 2026-02-22 |
 | [`ptncli`](https://github.com/jmlero/ptncli) | ptncli | - | 2026-02-22 |
 | [`kipf`](https://github.com/jmlero/kipf) | kipf | Go | 2026-02-19 |
 | [`qliz`](https://github.com/jmlero/qliz) | Application to play Quiz games in the terminal | Python | 2025-10-07 |
+| [`sandbox-go-restapi`](https://github.com/jmlero/sandbox-go-restapi) | No description set | Go | 2024-04-18 |
+| [`o11y-otel-demo`](https://github.com/jmlero/o11y-otel-demo) | Observability with opentelemetry  | Python | 2023-10-01 |
 <!-- END:REPO_TABLE -->
 
 ## Stack

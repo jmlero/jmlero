@@ -17,7 +17,7 @@ import subprocess
 from pathlib import Path
 
 USER = "jmlero"
-TABLE_LIMIT = 8
+TABLE_LIMIT = 10
 README = Path(__file__).resolve().parents[2] / "README.md"
 
 
@@ -29,7 +29,8 @@ def fetch_repos() -> list[dict]:
         ],
         text=True,
     )
-    return json.loads(out)
+    repos = json.loads(out)
+    return [r for r in repos if r.get("visibility") == "public" and not r.get("private")]
 
 
 def build_table(repos: list[dict]) -> str:
