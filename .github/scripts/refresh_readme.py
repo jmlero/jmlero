@@ -32,7 +32,12 @@ def fetch_repos() -> list[dict]:
         text=True,
     )
     repos = json.loads(out)
-    return [r for r in repos if r.get("visibility") == "public" and not r.get("private")]
+    return [
+        r for r in repos
+        if r.get("visibility") == "public"
+        and not r.get("private")
+        and not r.get("fork")
+    ]
 
 
 def build_table(repos: list[dict]) -> str:
