@@ -15,10 +15,6 @@ Building the infrastructure where cloud workloads and AI agents run.
 
 </div>
 
-## Currently Building
-
-**[claude-toolkit](https://github.com/jmlero/claude-toolkit)** — Personal Claude Code marketplace + a curated list of third-party skills for Claude Code.
-
 ## Focus
 
 - Designing and operating cloud infrastructure for AI agent workloads.
