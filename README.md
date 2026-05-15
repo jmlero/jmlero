@@ -18,8 +18,9 @@ Building the infrastructure where cloud workloads and AI agents run.
 ## Focus
 
 - Designing and operating cloud infrastructure for AI agent workloads.
-- Building developer platforms that bring AI capabilities into terminal and web products.
-- Open-source tooling around agent orchestration, Claude Code, and observability.
+- Building developer platforms that bring AI capabilities.
+- Open-source tooling around agent orchestration and observability.
+- Shipping end-to-end SaaS products — built with AI, powered by AI.
 
 ## Recent Activity
 
