@@ -67,7 +67,7 @@ def main() -> None:
     count = len(repos)
     today = datetime.date.today().isoformat()
     cutoff = (datetime.date.today() - datetime.timedelta(days=TABLE_MAX_AGE_DAYS)).isoformat()
-    # API already sorts by pushed desc — exclude listed repos and stale ones, then slice.
+    # API already sorts by pushed desc - exclude listed repos and stale ones, then slice.
     table_repos = [
         r for r in repos
         if r["name"] not in TABLE_EXCLUDE and (r.get("pushed_at") or "")[:10] >= cutoff
