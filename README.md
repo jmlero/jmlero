@@ -43,12 +43,6 @@ Building the infrastructure where cloud workloads and AI agents run.
   <img src="https://skillicons.dev/icons?i=py,go,ts,terraform,docker,kubernetes,githubactions,prometheus,linux,aws&theme=dark" alt="Tech Stack" />
 </p>
 
-## GitHub Stats
-
-<p align="center">
-  <img src="metrics.svg" alt="GitHub Metrics" />
-</p>
-
 <div align="center">
   <!-- START:REFRESH_DATE -->Data refreshed from public GitHub repositories on 2026-05-15.<!-- END:REFRESH_DATE -->
 </div>
