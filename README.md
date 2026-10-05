@@ -27,8 +27,8 @@ Building the infrastructure where cloud workloads and AI agents run.
 <!-- START:REPO_TABLE -->
 | Repository | Description |
 | --- | --- |
-| [`context-lens`](https://github.com/jmlero/context-lens) | context-lens |
 | [`agent-suitup`](https://github.com/jmlero/agent-suitup) | A curated catalog of instructions, skills, and workflows for coding agents. |
+| [`context-lens`](https://github.com/jmlero/context-lens) | context-lens |
 | [`app-meerkat-cli`](https://github.com/jmlero/app-meerkat-cli) | app-meerkat-cli |
 | [`ptncli`](https://github.com/jmlero/ptncli) | ptncli |
 | [`claude-toolkit`](https://github.com/jmlero/claude-toolkit) | My personal Claude Code plugin marketplace + curated list of third-party skills |
@@ -42,5 +42,5 @@ Building the infrastructure where cloud workloads and AI agents run.
 </p>
 
 <div align="center">
-  <!-- START:REFRESH_DATE -->Data refreshed from public GitHub repositories on 2026-09-28.<!-- END:REFRESH_DATE -->
+  <!-- START:REFRESH_DATE -->Data refreshed from public GitHub repositories on 2026-10-05.<!-- END:REFRESH_DATE -->
 </div>
